@@ -17,8 +17,7 @@ const Search = () => {
     <FormStyle onSubmit={submitHandler}>
         <div>
             <FaSearch />
-            <input onChange={(e) =>  setInput(e.target.value)} type="text" value={input} />
-            <h1>{input}</h1>
+            <input onChange={(e) => setInput(e.target.value)} type="text" value={input} />
         </div>
     </FormStyle>
   );
@@ -26,3 +25,5 @@ const Search = () => {
 
 
 export default Search;
+
+// 1:39:46
